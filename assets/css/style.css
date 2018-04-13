@@ -692,7 +692,9 @@ input::-ms-input-placeholder {
     position: relative;
     background: #ffffff;
 }
-.main_service_area{}
+.main_service_area{
+    padding-top: 0px;
+}
 .single_service{
     margin-top:30px;
 }
@@ -727,7 +729,9 @@ input::-ms-input-placeholder {
 }
 
 .main_choose_area .main_choose_content{}
-.main_choose_area .main_choose_content .single_choose_content{} 
+.main_choose_area .main_choose_content .single_choose_content{
+    text-align: left;
+}
 .main_choose_area .main_choose_content .single_choose_content h2{
     font-size:1.625rem;
 } 
